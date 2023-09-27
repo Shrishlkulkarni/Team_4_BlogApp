@@ -1,0 +1,85 @@
+body {
+    background-image: url('../Images/blog.jpg');
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+}
+
+.blogdetail {
+    font-family: "Sofia", sans-serif;
+}
+
+#author {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(22, 19, 19);
+}
+
+#detailsauthor{
+    font-style: italic;
+}
+
+.details {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(106, 46, 46);
+}
+
+.comment {
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(174, 76, 76);
+}
+
+#blogdetail {
+    
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    color: rgb(46, 165, 42);
+}
+
+#titlebody {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(216, 124, 11);
+    font-style: unset;
+    font-weight: normal;
+
+}
+
+#commetheading {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#listcomment {
+    border: 1px solid #4d4a4a;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+#comment{
+    padding: 5px 5px 5px 5px;
+    text-align: justify;
+}
+

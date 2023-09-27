@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <script src="../JS/list.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/list.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <title id="title"></title>
+</head>
+
+<body>
+    <nav style="display: flex; flex-direction: row; height: 75px;">
+        <h1 onclick="navigateToHome()">StoryScribe</h1>
+        <input type="search" class="search" placeholder="Search by title" id="search" onkeyup="search(this)">
+        <button onclick="listView()" class="list-view">
+            <img src="../Images/list_view.jpg" alt="List icon" />
+            <div class="tool-tip">List View</div>
+        </button>
+        <button onclick="gridView()" class="grid-view">
+            <img src="../Images/grid-view.jpg" alt="Grid icon" />
+            <div class="tool-tip">Grid View</div>
+        </button>
+    </nav>
+    <hr>
+    <div id="list"></div>
+</body>
+
+</html>
